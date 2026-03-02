@@ -9,7 +9,7 @@ def modify(S):
     while i < len(S):
         num = ''
         # collect number
-        while i < len(S) and S[i].isdigit():
+        while i<len(S) and S[i].isdigit():
             num += S[i]
             i += 1
         char = S[i]
