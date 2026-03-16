@@ -8,10 +8,10 @@ class Father(Grandfather):
 
 class Son(Grandfather):
     bike='KTM'
+
 class Grandson(Son,Father):
     pass
     
-
 g=Grandson()
 print(g.car)
 print(Grandson.mro())
